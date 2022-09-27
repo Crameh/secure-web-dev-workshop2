@@ -1,0 +1,23 @@
+{
+  "name": "secure-web-dev-workshop2",
+  "version": "1.0.0",
+  "description": "> Learning basics of MongoDB and how to use it with Javascript",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Crameh/secure-web-dev-workshop2.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Crameh/secure-web-dev-workshop2/issues"
+  },
+  "homepage": "https://github.com/Crameh/secure-web-dev-workshop2#readme",
+  "dependencies": {
+    "dotenv": "^16.0.2",
+    "mongoose": "^6.6.1"
+  }
+}
