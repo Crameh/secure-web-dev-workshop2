@@ -73,7 +73,7 @@ function addLocation(location) {
 }
 
 function updateLocation(id, changes) {
-    Location.updateOne(queryById(id), changes);
+    Location.findOneAndUpdate({_id:id}, changes);
 }
 
 main();
@@ -84,6 +84,7 @@ main();
 //let test = new Location({filmName : "Marc le Dieu tout puissant !"});
 //addLocation(test);
 //console.log(queryAllByFilmName("Marc le Dieu tout puissant !"));
-changes = {filmProducerName : "Marc est vraiment tout puissant ! Mouhahahaha"};
-updateLocation("634049a41b49f4c0d2d9b377", changes);
-queryById("634049a41b49f4c0d2d9b377")
+//changes = new Location({filmName : "Marc est vraiment trop grand !"});
+
+//updateLocation("634049a41b49f4c0d2d9b377", {filmName : "Marc est vraiment trop grand !"});
+//queryById("634049a41b49f4c0d2d9b377");
